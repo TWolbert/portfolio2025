@@ -40,10 +40,10 @@ export default function Terminal() {
 
 
     return (
-        <div className="h-96 xl:w-full flex items-center relative justify-center overflow-hidden lg:bg-black rounded-xl lg:border-2 lg:border-purple-500 flex-col">
-            <ToastContainer className='absolute top-2 right-2' />
+        <div className={`h-96 xl:w-full flex ${!terminalMode && 'items-center'} ${terminalMode && 'justify-end'} ${terminalMode && 'items-start'} relative ${!terminalMode && 'justify-center'} overflow-hidden lg:bg-black rounded-xl lg:border-2 lg:border-purple-500 flex-col`}>
+            <ToastContainer theme="dark" className='absolute top-2 right-2 xl:block hidden' />
             <div className="mb-3 flex gap-4 items-center justify-center">
-                <p className="font-bold text-2xl lg:text-3xl text-purple-500 ">{'>'}</p>
+                <p className={`font-bold text-2xl lg:text-3xl text-purple-500 ${terminalMode && 'ml-4'}`}>{'>'}</p>
                 <input
                     type="text"
                     value={inputValue}

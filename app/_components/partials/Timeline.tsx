@@ -9,7 +9,7 @@ import { Laravel } from "./timeline/Laravel";
 
 // Horizontal timeline component that displays clickable timeline items
 export function HorizontalTimeline({ items }: HorizontalTimelineProps) {
-    const [hasClicked, setHasClicked] = useState(false);
+    const [hasClicked, setHasClicked] = useState(true);
     const [dialogContent, setDialogContent] = useState<React.ReactNode>(null);
 
     useEffect(() => {
