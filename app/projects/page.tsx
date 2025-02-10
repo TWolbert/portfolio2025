@@ -1,7 +1,8 @@
-export default function Projects() {
+export default function Zuivelstad() { 
     return (
         <div>
-            Projects
+            <h1>Projects</h1>
+            <p>Select one</p>
         </div>
     )
 }

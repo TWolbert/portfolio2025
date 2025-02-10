@@ -53,7 +53,7 @@ export default function MobileNav() {
                   </Navlink>
                 </li>
                 <li>
-                  <Navlink href="/contact" onClick={toggleMenu}>
+                  <Navlink href="/projects" onClick={toggleMenu}>
                     Projects
                   </Navlink>
                 </li>
