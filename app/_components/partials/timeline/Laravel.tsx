@@ -6,8 +6,11 @@ export function Laravel() {
                 I initially learned laravel to win a programming competition, but I quickly fell in love with the framework and its features.
                 From the eloquent ORM to the blade templating engine, Laravel has a lot to offer. I&apos;ve used it to create a few projects.
             </p>
-            <p className="text-white/70 mb-2">
-                My go-to stack for Laravel is as follows:
+            <div className="text-white/70 mb-2">
+                <p>
+                    My go-to stack for Laravel is as follows:
+                </p>
+
                 <ul className="list-disc ml-5">
                     <li>PHP 8.3</li>
                     <li>Laravel 11</li>
@@ -17,7 +20,7 @@ export function Laravel() {
                     <li>Typescript</li>
                     <li>Inertia</li>
                 </ul>
-            </p>
+            </div>
             <p className="text-white/70">
                 This Laravel stack allows me to create big and complex websites in days not weeks.
             </p>
