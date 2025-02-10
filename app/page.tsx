@@ -27,7 +27,7 @@ export default function Home() {
       <div className=" mt-5">
         <h1 className=" font-bold text-3xl">So what am I good at?</h1>
         <p className="text-white/70 text-xl">
-          Glad you ask, here is a non-exhaustive list of the thinsg I&apos;ve worked with!
+          Glad you ask, here is a non-exhaustive list of the things I&apos;ve worked with!
         </p>
         <div className="mt-2 flex items-center">
           <LightbulbFill className="text-purple-500" />
