@@ -31,7 +31,7 @@ export default function Navbar() {
             className="!bg-white/5 hover:!bg-white/10 !text-white"
             icon={<BookFill />}
           >
-            Call me
+            E-mail me
           </IconButton>
           <IconButton icon={<TelephoneFill />}>Get in contact</IconButton>
         </div>
