@@ -31,7 +31,7 @@ export default function RootLayout({
       >
         <div className=" h-full w-full min-h-screen">
           <Navbar />
-          <Log />
+          {/* <Log /> */}
           <div className="md:mx-20 pt-5">
             {children}
           </div>
