@@ -1,12 +1,13 @@
 import { LightbulbFill } from "react-bootstrap-icons";
 import { HorizontalTimeline, timelineItems } from "./_components/partials/Timeline";
 import Terminal from "./_components/partials/Terminal";
+import VisitorsCount from "./_components/partials/VisitorCount";
 
 
 export default function Home() {
   return (
     <div className=" lg:px-0 px-4">
-      {/* <VisitorsCount /> */}
+      <VisitorsCount />
       <Terminal />
 
       <div className=" mt-5">
