@@ -5,8 +5,6 @@ import { headers } from 'next/headers';
 export const dynamic = 'force-dynamic';
 
 export default async function Log() {
-  return;
-
   const headersList = await headers();
   const userAgent = headersList.get('user-agent') || 'unknown';
   
